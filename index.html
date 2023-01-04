@@ -1,61 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./static/logo.png">
     <title>SD Informática</title>
 </head>
+
 <body>
     <div class="navbar">
-        <div class="logodiv">
-            <a href="#">
-                <img class="logo" src="./static/logo.png" alt="Logo">
+        <div class="logo">
+            <a href="#quem">
+                <img class="logo" src="./static/logo.png" alt="SD">
             </a>
-            <a href="#">
+            <a href="#quem">
                 <h3 class="logotext">Informática</h3>
             </a>
         </div>
-        <ul>
-            <a href="#quem" class="link">Quem Somos</a>
-            <a href="#oque" class="link">O Que Fazemos</a>
-            <a href="#galeria" class="link">Galeria</a>
-            <a href="#contato" class="link">Contato</a>
-        </ul>
+
+        <div class="menu">
+            <ul>
+                <li> <a href="#quem">Quem Somos</a></li>
+                <li> <a href="#servicos">Serviços</a></li>
+                <li> <a href="#galeria">Galeria</a></li>
+                <li> <a href="#contato">Contato</a></li>
+            </ul>
+        </div>
     </div>
-    <div class="main">
-        <section id="quem">
+
+    <section id="quem">
         <h1>Quem Somos</h1>
-        <p>
-            Somos uma empresa de assistência técnica especializada de Itapetininga com a visão de ter o cliente sempre em primeiro lugar.
-        </p>
-        <img class="sectionimg" src="./static/overview.jpg" style="text-align: center;">
-        </section>
-        <section id="oque" class="oque">
-            <h1>O Que Fazemos</h1>
-            <p>
-                Realizamos o reparo e instalação de equipamentos tecnológicos como computadores, servidores, smartphones, tablets, modens,
-                 roteadores, câmeras de segurança entre outros tipos de serviço. Entre em contato para saber mais e realizar um orçamento.
-                 <img src="./static/montage.jpg" class="sectionimg">
+        <div class="conteudo">
+            <img class="sectionimg" src="./static/overview.jpg" title="bancada">
+            <p>Somos uma empresa de assistência técnica especializada de Itapetininga com a visão de ter o cliente
+                sempre em primeiro lugar.
             </p>
-        </section>
-        <section id="galeria">
-            <h1>Galeria</h1>
-            <div class="gallery">
-                <img src="./static/gamerpc1.jpg" />
-                <img src="./static/gamerpc2.jpg" />
-                <img src="./static/gamerpc3.jpg" />
-                <img src="./static/gamerpc4.jpg" />
-                <img src="./static/motherboard.jpg" />
-                <img src="./static/pc1.jpg" />
-            </div>
-        </section>
-        <section id="contato">
-            <h1>Contato</h1>
-            <h3>Celular: (15)99102-0433 | (15)99730-8120</h3>
-            <h3>Email: sandrofg437@hotmail.com</h3>
-        </section>
-    </div>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <h1>Serviços</h1>
+        <div class="conteudo">
+            <p>
+                Realizamos o reparo e instalação de equipamentos tecnológicos como computadores, servidores,
+                smartphones, tablets, modens,
+                roteadores, câmeras de segurança entre outros tipos de serviço. Entre em contato para saber mais e
+                realizar um orçamento.
+            </p>
+            <img class="sectionimg" src="./static/montage.jpg" title="servicos">
+        </div>
+    </section>
+
+    <section id="galeria">
+        <h1>Galeria</h1>
+        <div class="gallery">
+            <img src="./static/gamerpc1.jpg" />
+            <img src="./static/gamerpc2.jpg" />
+            <img src="./static/gamerpc3.jpg" />
+            <img src="./static/gamerpc4.jpg" />
+            <img src="./static/motherboard.jpg" />
+            <img src="./static/pc1.jpg" />
+        </div>
+    </section>
+
+    <section id="contato">
+        <h1>Contato</h1>
+        <h3>Celular: (15)99102-0433 | (15)99730-8120</h3>
+        <h3>Email: sandrofg437@hotmail.com</h3>
+    </section>
+
 </body>
+
 </html>
