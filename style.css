@@ -17,7 +17,7 @@
     --secondary: #211f20;
     --secondary-dark: #292727;
     --secondary-darker: #161516;
-
+    --navbar-height: 7.5vh;
 }
 
 body{
@@ -31,7 +31,7 @@ body{
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
-    height: 7.5vh;
+    height: var(--navbar-height);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -86,13 +86,24 @@ h1{
     object-fit: cover;
 }
 
+/* .leftimg{
+    left: 0px;
+    margin: 0px 2vw 0px 0px;
+}
+
+.rightimg{
+    right: 0px;
+    margin: 0px 0px 0px 2vw;
+} */
+
 .conteudo{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 2vw;
 }
 
 .content{
-    padding: 7.5vh 5%;
+    padding: var(--navbar-height) 10vw;
 }
 
 section{
