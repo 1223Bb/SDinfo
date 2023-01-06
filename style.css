@@ -60,13 +60,32 @@ body{
     color: var(--text-color);
 }
 
-.menu ul li{
+.dropdownmenu{
+    background-color: var(--secondary-dark);
+    top: var(--navbar-height);
+    /* top:-30vh; */
+    transform: translateX(26vw);
+    position: fixed;
+    right: 0;
+    transition: 0.3s;
+}
+
+.dropdownmenu ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#dropdowncheck:checked ~ .dropdownmenu{
+    transform: translateX(0vw);
+}
+
+ul li{
     display: inline-block;
     padding: 10px;
     margin: 5px 30px;
 }
 
-.menu ul li a{
+ul li a{
     color: var(--text-color);
 }
 
