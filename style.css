@@ -64,7 +64,8 @@ body{
     background-color: var(--secondary-dark);
     top: var(--navbar-height);
     /* top:-30vh; */
-    transform: translateX(26vw);
+    transform: translateX(27vw);
+    width: 27vw;
     position: fixed;
     right: 0;
     transition: 0.3s;
@@ -73,6 +74,13 @@ body{
 .dropdownmenu ul {
     display: flex;
     flex-direction: column;
+}
+
+.dropdownmenu ul li {
+    width: auto;
+    padding: 10%;
+    margin: 0px;
+    text-align: center;
 }
 
 #dropdowncheck:checked ~ .dropdownmenu{
