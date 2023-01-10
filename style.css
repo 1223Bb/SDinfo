@@ -186,6 +186,11 @@ section p{
     object-fit: cover;
 }
 
+#contato a{
+    font-style: none;
+    color: var(--text-color);
+}
+
 @media screen and (max-width: 800px) {
     .menu {
         display: none;
